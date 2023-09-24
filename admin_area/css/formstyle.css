@@ -1,0 +1,43 @@
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form
+{
+    width: 100%;
+    text-align: center;
+}
+
+.form-control
+{
+    width: 70vw;
+    height: 4vh;
+    margin-bottom: 10px;
+}
+
+.category-btn
+{
+    display: inline-block;
+    padding: 0.3em 1.2em 0.3em;
+    margin: 0.3em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    background-color:#6cc86e;
+    text-align: center;
+    transition: all 0.2s;
+    width: 20vw;
+    height: 4vh;
+}
+
+.category-btn:hover
+{
+    background-color:#90ee91;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/*input brand form*/
+

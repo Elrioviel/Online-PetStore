@@ -1,0 +1,151 @@
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first-navbar
+{
+    background: #1f120c;
+    height: 6vh;
+    cursor: pointer;
+}
+
+.left
+{
+    width: 20%;
+}
+.left > div + div
+{
+    margin-left: 50px;
+}
+.right > div
+{
+    margin-left: 40px;
+}
+
+.first-navbar a, .first-navbar
+{
+    color: white;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.new-user
+{
+    width: 10%;
+}
+
+.cart-icon
+{
+    height: 3.2vh;
+    margin-left: 5px;
+}
+
+.first-navbar a:hover
+{
+    color: #ff7d41;
+    transition: all 0.3s ease 0s;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 17px;
+}
+.right-column
+{
+    width: 30%;
+    margin-top: 100px;
+}
+.left-column
+{
+    width: 50%;
+    position: relative;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.left-column img
+{
+    width: 100%;
+    display: block;
+}
+.product-title
+{
+    border-bottom: 1px solid rgb(100, 100, 100);
+    margin-bottom: 27px;
+}
+.product-title a
+{
+    font-size: 14px;
+    color: rgb(0, 73, 93);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.product-title h1
+{
+    color: rgb(65, 46, 0);
+    font-weight: 400;
+    font-size: 54px;
+}
+.product-description p
+{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.product-brand
+{
+    padding-top: 25px;
+    margin-bottom: 58px;
+}
+.product-price
+{
+    display: flex;
+    align-items: center;
+}
+.product-price span
+{
+    font-weight: 400;
+    font-size: 28px;
+    color: blue;
+    margin-right: 23px;
+}
+.add-cart
+{
+    background-color: rgb(16, 155, 16);
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px 32px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: white;
+}
+.add-cart:hover
+{
+    background-color:rgb(100, 221, 100);
+}

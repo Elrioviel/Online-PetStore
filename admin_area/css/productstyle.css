@@ -1,0 +1,25 @@
+.element-container
+{
+    margin-top: 20px;
+}
+
+.product-form
+{
+    margin-left: 10vw;
+}
+
+label
+{
+    margin-right: 10px;
+}
+
+select
+{
+    height: 30px;
+    width: 190px;
+}
+
+.submit-button
+{
+    padding-bottom: 20px;
+}
